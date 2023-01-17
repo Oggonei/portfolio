@@ -1,0 +1,17 @@
+@use '../../styles/styles' as *;
+
+.leisure-container {
+  display: flex;
+  flex-direction: column;
+
+  &-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 12px 0;
+  }
+
+  &-text {
+    margin: 0 12px;
+    text-align: justify;
+  }
+}

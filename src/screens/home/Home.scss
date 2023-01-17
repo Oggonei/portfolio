@@ -1,0 +1,60 @@
+@use '../../styles/styles' as *;
+
+.home {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../assets/images/home2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+
+  &-info {
+    flex-direction: column;
+    color: $white;
+    text-align: center;
+
+    &-tittle {
+      margin-bottom: 20px;
+    }
+
+    &-proffesion {
+      margin-bottom: 20px;
+    }
+
+    &-button {
+      border: none;
+      border-radius: 12px;
+      padding: 16px 20px;
+      cursor: pointer;
+      border: 1px solid $white;
+      background-color: $base-color;
+      color: $white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    &-button:hover {
+      background-color: $white;
+      color: $base-color;
+      border: 1px solid $base-color;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .home {
+    height: 90vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  .home {
+    background-position: 0 30% ;
+
+    &-info {
+      font-size: 28px;
+    }
+  }
+}

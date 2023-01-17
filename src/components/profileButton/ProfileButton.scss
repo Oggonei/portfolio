@@ -1,0 +1,28 @@
+@use '../../styles/styles' as *;
+
+.button-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 12px 0;
+
+  button {
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    cursor: pointer;
+    border: 1px solid $white;
+    background-color: $gray;
+    color: $white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background-color: $white;
+    color: $gray;
+    border: 1px solid $gray;
+  }
+}

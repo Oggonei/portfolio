@@ -1,0 +1,29 @@
+@use '../../styles/styles' as *;
+
+.Container-job {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 12px;
+  margin-left: 12px;
+
+  &-position {
+    font-weight: 600;
+  }
+
+  &-date {
+    display: flex;
+    align-items: center;
+
+    &-time {
+      color: $gray;
+      margin-left: 12px;
+      background-color: $gray;
+      color: $white;
+      border-radius: 12px;
+      padding: 4px 8px;
+      font-size: 14px;
+    }
+  }
+
+}

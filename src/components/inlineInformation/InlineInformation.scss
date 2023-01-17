@@ -1,0 +1,42 @@
+@use '../../styles/styles' as *;
+
+.inlineInformation-container {
+  display: flex;
+  align-items: center;
+
+  &-logo {
+    display: flex;
+    margin-left: 12px;
+    color: $base-color;
+  }
+  
+  &-information {
+    display: flex;
+    margin-left: 12px;
+  }
+
+  &-direct {
+    margin-left: 8px;
+    display: flex;
+
+    a {
+      display: flex;
+      color: $base-color;
+
+      &:hover {
+        cursor: pointer;
+        color: $gray;
+        animation: move-right .5s infinite;
+      }
+    }
+  }
+}
+
+@keyframes move-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(12px);
+  }
+}

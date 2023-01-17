@@ -1,0 +1,15 @@
+@use '../../styles/styles' as *;
+
+.box {
+  background-color: $white;
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px 2px $gray;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 1000px) {
+  .box {
+    width: 95%;
+  }
+}

@@ -1,0 +1,13 @@
+@use '../../styles/styles' as *;
+
+.list {
+  margin: 0 20px;
+}
+
+.list-ul {
+  margin: 0 12px 24px 16px;
+
+  li {
+    margin-bottom: 8px;
+  }
+}

@@ -1,0 +1,283 @@
+@use '../../styles/styles' as *;
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  background-color: $base-color;
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &-image {
+      width: 50%;
+      border-radius: 50%;
+      margin-bottom: 16px;
+    }
+
+    &-name {
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    &-profession, &-location {
+      color: $gray;
+      margin-bottom: 12px;
+    }
+
+    &-abstract {
+      padding: 12px 12px 24px;
+      text-align: center;
+    }
+  }
+}
+
+.box-container_1, .box-container_2, .box-container_3  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.separator {
+  width: 80%;
+  height: 2px;
+  background-color: $gray;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.inlineInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-bottom: 12px;
+  color: $base-color;
+}
+
+.onlineEducation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 12px;
+
+  &-udemy, &-platzy {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+
+    &-logo {
+      display: flex;
+      font-size: 24px;
+    }
+
+    &-name {
+      display: flex;
+      margin-left: 12px;
+      font-weight: 500;
+    }
+  }
+
+  &-button {
+    margin: 0 auto;
+    
+    button {
+      border: none;
+      border-radius: 12px;
+      padding: 12px;
+      cursor: pointer;
+      border: 1px solid $white;
+      background-color: $gray;
+      color: $white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: $white;
+      color: $gray;
+      border: 1px solid $gray;
+    }
+  }
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 12px;
+}
+
+.leisure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    &-trail, &-bike {
+      width: 90%;
+      margin-bottom: 12px;
+
+      img {
+        width: 100%;
+        border-radius: 12px;
+      }
+    }
+  }
+
+  &-button {
+    margin-bottom: 12px;
+
+    button {
+      border: none;
+      border-radius: 12px;
+      padding: 12px;
+      cursor: pointer;
+      border: 1px solid $white;
+      background-color: $gray;
+      color: $white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  
+    button:hover {
+      background-color: $white;
+      color: $gray;
+      border: 1px solid $gray;
+    }
+  }
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    margin: 16px auto;
+    font-weight: bold;
+  }
+
+  &_projects {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+
+    &-information {
+      span {
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      p {
+        margin-top: 8px;
+        margin-left: 8px;
+      }
+    }
+
+    &-button {
+
+      margin: 12px auto;
+
+      button {
+        border: none;
+        border-radius: 12px;
+        padding: 12px;
+        cursor: pointer;
+        border: 1px solid $white;
+        background-color: $gray;
+        color: $white;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    
+      button:hover {
+        background-color: $white;
+        color: $gray;
+        border: 1px solid $gray;
+      }
+
+    }
+  }
+}
+
+.footer {
+  color: $white;
+  text-align: center;
+  font-size: 14px;
+  padding: 12px;
+  background-color: $base-color;
+}
+
+@media screen and (min-width: 600px) {
+  .profile-content {
+    flex-direction: row;
+
+    &-image {
+      max-width:35%;
+      margin-left: 12px;
+    }
+  }
+
+  .projects-container_projects {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .profile {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .profile-content {
+    flex-direction: column;
+
+    &-image {
+      max-width: 90%;
+    }
+  }
+
+  .box-container_1, .box-container_3  {
+    width: 30%;
+  }
+
+  .box-container_2 {
+    width: 40%;
+  }
+
+  .leisure-container {
+    flex-wrap: wrap;
+    
+    &-images {
+      flex-direction: row;
+      width: 100%;
+
+      &-trail {
+        margin-left: 12px;
+        margin-right: 6px;
+      }
+
+      &-bike {
+        margin-right: 12px ;
+        margin-left: 6px ;
+      }
+    }
+  }
+}
+
