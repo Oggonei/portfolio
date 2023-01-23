@@ -233,8 +233,11 @@
 
   .projects-container_projects {
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+
+    &-information {
+      width: 70%;
+    }
   }
 }
 

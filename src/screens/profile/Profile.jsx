@@ -163,6 +163,17 @@ const ProfileScreen = () => {
                 </a>
               </div>
             </div>
+            <div className="projects-container_projects">
+              <div className="projects-container_projects-information">
+                <span>Mail validator</span>
+                <p>Made with ( JavaScript - Tailwind - HTML )</p>
+              </div>
+              <div className="projects-container_projects-button">
+                <a href='https://mailvalidator.netlify.app/' target='_blank' rel='noreferrer'>
+                  <button>View project</button>
+                </a>
+              </div>
+            </div>
             <label>soon more projects...</label>
             {/* <img src={underConstruction} alt="" /> */}
           </div>

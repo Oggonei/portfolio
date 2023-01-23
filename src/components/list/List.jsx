@@ -4,7 +4,6 @@ import './List.scss'
 const List = ({
   functions
 }) => {
-  console.log('functions', functions)
   return (
     <div className='list'>
         <ul className='list-ul'>
