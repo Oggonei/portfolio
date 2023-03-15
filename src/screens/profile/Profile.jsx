@@ -116,7 +116,7 @@ const ProfileScreen = () => {
             </div>
             <div className="onlineEducation-container-platzy">
               <span className='onlineEducation-container-platzy-logo'><SiPlatzi/></span>
-              <p className='onlineEducation-container-platzy-name'>Platzy (21 certificates)</p>
+              <p className='onlineEducation-container-platzy-name'>Platzy (24 certificates)</p>
             </div>
             <div className="onlineEducation-container-button">
               <Link to={'/certificates'}>
@@ -170,6 +170,28 @@ const ProfileScreen = () => {
               </div>
               <div className="projects-container_projects-button">
                 <a href='https://mailvalidator.netlify.app/' target='_blank' rel='noreferrer'>
+                  <button>View project</button>
+                </a>
+              </div>
+            </div>
+            <div className="projects-container_projects">
+              <div className="projects-container_projects-information">
+                <span>Quote vehicle insurance</span>
+                <p>Made with ( Prototypes - JavaScript - Tailwind )</p>
+              </div>
+              <div className="projects-container_projects-button">
+                <a href='https://cotizadorsegurorvehiculos.netlify.app' target='_blank' rel='noreferrer'>
+                  <button>View project</button>
+                </a>
+              </div>
+            </div>
+            <div className="projects-container_projects">
+              <div className="projects-container_projects-information">
+                <span>Weekly budget</span>
+                <p>Made with ( Classes - JavaScript - Bootstrap )</p>
+              </div>
+              <div className="projects-container_projects-button">
+                <a href='https://presupuestosemana.netlify.app/' target='_blank' rel='noreferrer'>
                   <button>View project</button>
                 </a>
               </div>
