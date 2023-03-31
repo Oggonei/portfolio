@@ -154,6 +154,17 @@ const ProfileScreen = () => {
             </div>
             <div className="projects-container_projects">
               <div className="projects-container_projects-information">
+                <span>CRM Administrator</span>
+                <p>Made with ( IndexedDB - JavaScript - Tailwind )</p>
+              </div>
+              <div className="projects-container_projects-button">
+                <a href='https://crm-administrator.netlify.app/' target='_blank' rel='noreferrer'>
+                  <button>View project</button>
+                </a>
+              </div>
+            </div>
+            <div className="projects-container_projects">
+              <div className="projects-container_projects-information">
                 <span>Veterinary appointment manager</span>
                 <p>Made with ( Classes - JavaScript - Bootstrap )</p>
               </div>
