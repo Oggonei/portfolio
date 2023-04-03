@@ -176,6 +176,17 @@ const ProfileScreen = () => {
             </div>
             <div className="projects-container_projects">
               <div className="projects-container_projects-information">
+                <span>Weather API</span>
+                <p>Made with ( Fetch - JavaScript - Tailwind )</p>
+              </div>
+              <div className="projects-container_projects-button">
+                <a href='https://weather-appi-js.netlify.app/' target='_blank' rel='noreferrer'>
+                  <button>View project</button>
+                </a>
+              </div>
+            </div>
+            <div className="projects-container_projects">
+              <div className="projects-container_projects-information">
                 <span>Shopping cart</span>
                 <p>Made with ( JavaScript - CSS - HTML )</p>
               </div>
