@@ -165,7 +165,7 @@ const ProfileScreen = () => {
             </div>
             <div className="projects-container_projects">
               <div className="projects-container_projects-information">
-                <span>Veterinary appointment manager</span>
+                <span>Veterinary Appointment Manager</span>
                 <p>Made with ( Classes - JavaScript - Bootstrap )</p>
               </div>
               <div className="projects-container_projects-button">
@@ -187,7 +187,18 @@ const ProfileScreen = () => {
             </div>
             <div className="projects-container_projects">
               <div className="projects-container_projects-information">
-                <span>Shopping cart</span>
+                <span>Recipe Finder</span>
+                <p>Made with ( Fetch - JavaScript - Bootstrap )</p>
+              </div>
+              <div className="projects-container_projects-button">
+                <a href='https://recipefinder-app2.netlify.app/index.html' target='_blank' rel='noreferrer'>
+                  <button>View project</button>
+                </a>
+              </div>
+            </div>
+            <div className="projects-container_projects">
+              <div className="projects-container_projects-information">
+                <span>Shopping Cart</span>
                 <p>Made with ( JavaScript - CSS - HTML )</p>
               </div>
               <div className="projects-container_projects-button">
@@ -198,7 +209,7 @@ const ProfileScreen = () => {
             </div>
             <div className="projects-container_projects">
               <div className="projects-container_projects-information">
-                <span>Mail validator</span>
+                <span>Mail Validator</span>
                 <p>Made with ( JavaScript - Tailwind - HTML )</p>
               </div>
               <div className="projects-container_projects-button">
@@ -209,7 +220,7 @@ const ProfileScreen = () => {
             </div>
             <div className="projects-container_projects">
               <div className="projects-container_projects-information">
-                <span>Quote vehicle insurance</span>
+                <span>Quote Vehicle Insurance</span>
                 <p>Made with ( Prototypes - JavaScript - Tailwind )</p>
               </div>
               <div className="projects-container_projects-button">
@@ -220,7 +231,7 @@ const ProfileScreen = () => {
             </div>
             <div className="projects-container_projects">
               <div className="projects-container_projects-information">
-                <span>Weekly budget</span>
+                <span>Weekly Budget</span>
                 <p>Made with ( Classes - JavaScript - Bootstrap )</p>
               </div>
               <div className="projects-container_projects-button">
