@@ -154,6 +154,17 @@ const ProfileScreen = () => {
             </div>
             <div className="projects-container_projects">
               <div className="projects-container_projects-information">
+                <span>Credit Simulator</span>
+                <p>Made with ( React - Tailwind - JavaScript )</p>
+              </div>
+              <div className="projects-container_projects-button">
+                <a href='https://creditsimulator.netlify.app/' target='_blank' rel='noreferrer'>
+                  <button>View project</button>
+                </a>
+              </div>
+            </div>
+            <div className="projects-container_projects">
+              <div className="projects-container_projects-information">
                 <span>CRM Administrator</span>
                 <p>Made with ( IndexedDB - JavaScript - Tailwind )</p>
               </div>
