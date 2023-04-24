@@ -43,12 +43,23 @@ const ProfileScreen = () => {
 
         <Box title='Contact'>
           <div className="inlineInformation">
-            <InlineInformation logo={<ImMail style={{fontSize: '25px'}}/>} information='oggonei@hotmail.com' url='mailto:oggonei@hotmail.com'/>
+            <InlineInformation logo={<ImMail style={{fontSize: '25px'}}/>} information='csantosoggonei@gmail.com' url='mailto:csantosoggonei@gmail.com'/>
             <InlineInformation logo={<FaWhatsappSquare style={{fontSize: '27px'}}/>} information='+57 3214642753' url='https://wa.me/573214642753'/>
             <InlineInformation logo={<FaLinkedin style={{fontSize: '27px'}}/>} information='@CristhianSantosOggonei' url='https://www.linkedin.com/in/cristhiansantosoggonei/'/>
             <InlineInformation logo={<FaGithubSquare style={{fontSize: '27px'}}/>} information='@Oggonei' url='https://github.com/Oggonei'/>
             <InlineInformation logo={<FaInstagramSquare style={{fontSize: '27px'}}/>} information='@oggonei' url='https://www.instagram.com/oggonei'/>
           </div>
+        </Box>
+
+        <Box title='Skills'>
+            <div className="skills-container">
+              <InlineInformation logo={<DiReact style={{fontSize: '25px'}}/>} information='React'/>
+              <InlineInformation logo={<DiJavascript1 style={{fontSize: '25px'}}/>} information='Javascript'/>
+              <InlineInformation logo={<DiBootstrap style={{fontSize: '25px'}}/>} information='Bootstrap'/>
+              <InlineInformation logo={<DiSass style={{fontSize: '25px'}}/>} information='SASS'/>
+              <InlineInformation logo={<DiCss3 style={{fontSize: '25px'}}/>} information='CSS'/>
+              <InlineInformation logo={<DiHtml5 style={{fontSize: '25px'}}/>} information='HTML'/>
+            </div>
         </Box>
       </div>
 
@@ -128,17 +139,6 @@ const ProfileScreen = () => {
       </div>
 
       <div className="box-container_3">
-        <Box title='Skills'>
-            <div className="skills-container">
-              <InlineInformation logo={<DiReact style={{fontSize: '25px'}}/>} information='React'/>
-              <InlineInformation logo={<DiJavascript1 style={{fontSize: '25px'}}/>} information='Javascript'/>
-              <InlineInformation logo={<DiBootstrap style={{fontSize: '25px'}}/>} information='Bootstrap'/>
-              <InlineInformation logo={<DiSass style={{fontSize: '25px'}}/>} information='SASS'/>
-              <InlineInformation logo={<DiCss3 style={{fontSize: '25px'}}/>} information='CSS'/>
-              <InlineInformation logo={<DiHtml5 style={{fontSize: '25px'}}/>} information='HTML'/>
-            </div>
-        </Box>
-
         <Box title='Projects'>
           <div className="projects-container">
             <div className="projects-container_projects">
@@ -181,6 +181,28 @@ const ProfileScreen = () => {
               </div>
               <div className="projects-container_projects-button">
                 <a href='https://administradorcitasvet.netlify.app/' target='_blank' rel='noreferrer'>
+                  <button>View project</button>
+                </a>
+              </div>
+            </div>
+            <div className="projects-container_projects">
+              <div className="projects-container_projects-information">
+                <span>Cryptocurrency Quote</span>
+                <p>Made with ( JavaScript )</p>
+              </div>
+              <div className="projects-container_projects-button">
+                <a href='https://global-cryptocurrency-quote.netlify.app/' target='_blank' rel='noreferrer'>
+                  <button>View project</button>
+                </a>
+              </div>
+            </div>
+            <div className="projects-container_projects">
+              <div className="projects-container_projects-information">
+                <span>Image Finder</span>
+                <p>Made with ( JavaScript )</p>
+              </div>
+              <div className="projects-container_projects-button">
+                <a href='https://image-finder-px.netlify.app/' target='_blank' rel='noreferrer'>
                   <button>View project</button>
                 </a>
               </div>

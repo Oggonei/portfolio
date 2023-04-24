@@ -16,7 +16,7 @@ const Header = () => {
           <div className="social-icons">
             <a href="https://www.linkedin.com/in/cristhiansantosoggonei/" target="_blanck"><FaLinkedin/></a>        
             <a href="https://wa.me/573214642753" target="_blanck"><FaWhatsappSquare/></a>        
-            <a href="mailto:oggonei@hotmail.com" target="_blanck"><ImMail style={{fontSize: '27px'}}/></a>        
+            <a href="mailto:csantosoggonei@gmail.com" target="_blanck"><ImMail style={{fontSize: '27px'}}/></a>        
             <a href="https://github.com/Oggonei" target="_blanck"><FaGithubSquare/></a>        
             <a href="https://www.instagram.com/oggonei" target="_blanck"><FaInstagramSquare/></a>        
           </div>
