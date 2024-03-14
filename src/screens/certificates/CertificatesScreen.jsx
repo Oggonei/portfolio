@@ -28,8 +28,14 @@ import platzy21 from '../../assets/images/certificates/platzy/platzy21.JPG'
 import platzy22 from '../../assets/images/certificates/platzy/platzy22.JPG'
 import platzy23 from '../../assets/images/certificates/platzy/platzy23.JPG'
 import platzy24 from '../../assets/images/certificates/platzy/platzy24.JPG'
+import platzy01 from '../../assets/images/certificates/platzy/platzy01.JPG'
+import platzy02 from '../../assets/images/certificates/platzy/platzy02.JPG'
+import platzy03 from '../../assets/images/certificates/platzy/platzy03.JPG'
 
 const platzy =[
+  platzy01,
+  platzy02,
+  platzy03,
   platzy1,
   platzy23,
   platzy2,

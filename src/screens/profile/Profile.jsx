@@ -64,8 +64,31 @@ const ProfileScreen = () => {
       </div>
 
       <div className='box-container_2'>
+
         <Box title='Experience'>
           <div className='experience-Container'>
+            <BlockInformation 
+              position='Product Specialist - Valuit Solutions' 
+              date='may/2023 to currently' 
+              time='10 month' 
+            />
+            <List functions={[
+              'development(full stack) to solve customer needs',
+              'Database management',
+              'Development with Manage Engine tools',
+              'Technical support'
+            ]}/>
+            <BlockInformation 
+              position='Support Engineer - NI' 
+              date='Oct/2019 to April/2021' 
+              time='1year 6month' 
+            />
+            <List functions={[
+              "Development with the company's own software and hardware.",
+              'Support to customer requests.',
+              'Customer training with different courses offered by the company'
+            ]}/>
+
             <BlockInformation 
               position='Support Engineer - ADDI' 
               date='Nov/2021 to May/2022' 
@@ -127,7 +150,7 @@ const ProfileScreen = () => {
             </div>
             <div className="onlineEducation-container-platzy">
               <span className='onlineEducation-container-platzy-logo'><SiPlatzi/></span>
-              <p className='onlineEducation-container-platzy-name'>Platzy (24 certificates)</p>
+              <p className='onlineEducation-container-platzy-name'>Platzy (28 certificates)</p>
             </div>
             <div className="onlineEducation-container-button">
               <Link to={'/certificates'}>
